@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(13, 117, 117);
+       
+}
+
+h1{
+    margin-bottom: 15px;
+    color: black;
+    
+}
+.inputs{
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+    border-radius: 35px;
+    border-radius: 35px;
+    border-radius: 28px;
+    border-radius: 37px;
+    background: #680303;
+    box-shadow:  7px 7px 28px #f4eded,
+             -7px -7px 28px #f6f2f2;
+   
+}
+ .inpt{
+   width: 400px;
+   height: 50px;
+   margin: 30px;
+   background: none;
+   border: none;
+   outline: none;
+   max-width: 350px;
+   padding: 10px 20px;
+   font-size: 16px;
+   border-radius: 9999px;
+   box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+   color: #fff;  
+   font-size: larger;   
+}
+button{
+    width: 50px;
+    height:50px ;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,16,41,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+.text ul{
+    width: 400px;
+    height: 40px;
+    background-color:rgb(119, 8, 8);
+    font-size: x-large;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,16,41,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.text ul i{
+    color: rgb(23, 19, 19);
+    position: absolute;
+    right: 38rem;
+}
+
+
